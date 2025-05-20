@@ -1,0 +1,23 @@
+accommodation_food|Accommodation and Food Services
+agriculture|Agriculture
+arts_entertainment|Arts, Entertainment and Recreation
+automotive_non_mfg|Automotive (Non Manufacturing)
+prof_business_services|Professional and Business Services
+non_profit|Not For Profit
+construction|Construction
+consulting|Consulting
+defense_space|Defense and Space
+education|Education
+energy_utilities|Energy and Utilities
+finance_insurance|Finance and Insurance
+gaming|Gaming
+government|Government
+health_life_sciences|Health and Life Sciences
+manufacturing|Manufacturing
+media|Media
+tbd|To Be Defined
+real_estate|Real Estate, Rental and Leasing
+retail|Retail
+software_services|Software and Services
+telecom|Telecommunications
+transport_travel_warehouse|Transportation, Travel and Warehousing

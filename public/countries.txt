@@ -1,0 +1,249 @@
+Vietnam|Vietnam
+Afghanistan|Afghanistan
+AlandIslands|Aland Islands
+Albania|Albania
+Algeria|Algeria
+AmericanSamoa|American Samoa
+Andorra|Andorra
+Angola|Angola
+Anguilla|Anguilla
+Antarctica|Antarctica
+AntiguaandBarbuda|Antigua and Barbuda
+Argentina|Argentina
+Armenia|Armenia
+Aruba|Aruba
+Australia|Australia
+Austria|Austria
+Azerbaijan|Azerbaijan
+Bahamas|Bahamas
+Bahrain|Bahrain
+Bangladesh|Bangladesh
+Barbados|Barbados
+Belarus|Belarus
+Belgium|Belgium
+Belize|Belize
+Benin|Benin
+Bermuda|Bermuda
+Bhutan|Bhutan
+Bolivia|Bolivia
+Bonaire|Bonaire
+BosniaandHerzegovina|Bosnia and Herzegovina
+Botswana|Botswana
+BouvetIsland|Bouvet Island
+Brazil|Brazil
+BritishIndianOceanTerritory|British Indian Ocean Territory
+BruneiDarussalam|Brunei Darussalam
+Bulgaria|Bulgaria
+BurkinaFaso|Burkina Faso
+Burundi|Burundi
+Cambodia|Cambodia
+Cameroon|Cameroon
+Canada|Canada
+CapeVerde|Cape Verde
+CaymanIslands|Cayman Islands
+CentralAfricanRepublic|Central African Republic
+Chad|Chad
+Chile|Chile
+China|China
+ChristmasIsland|Christmas Island
+Cocos(Keeling)Islands|Cocos (Keeling) Islands
+Colombia|Colombia
+Comoros|Comoros
+Congo|Congo
+CongoTheDemocraticRepublicofthe|Congo, The Democratic Republic of the
+CookIslands|Cook Islands
+CostaRica|Costa Rica
+CoteD'ivoire|Cote D'ivoire
+Croatia|Croatia
+Cuba|Cuba
+Curacao|Curacao
+Cyprus|Cyprus
+CzechRepublic|Czech Republic
+Denmark|Denmark
+Djibouti|Djibouti
+Dominica|Dominica
+DominicanRepublic|Dominican Republic
+Ecuador|Ecuador
+Egypt|Egypt
+ElSalvador|El Salvador
+EquatorialGuinea|Equatorial Guinea
+Eritrea|Eritrea
+Estonia|Estonia
+Eswatini|Eswatini
+Ethiopia|Ethiopia
+FalklandIslands(Malvinas)|Falkland Islands (Malvinas)
+FaroeIslands|Faroe Islands
+Fiji|Fiji
+Finland|Finland
+France|France
+FrenchGuiana|French Guiana
+FrenchPoly|French Poly.
+FrenchSTerr|French S. Terr.
+Gabon|Gabon
+Gambia|Gambia
+Georgia|Georgia
+Germany|Germany
+Ghana|Ghana
+Gibraltar|Gibraltar
+Greece|Greece
+Greenland|Greenland
+Grenada|Grenada
+Guadeloupe|Guadeloupe
+Guam|Guam
+Guatemala|Guatemala
+Guernsey|Guernsey
+Guinea|Guinea
+Guinea-Bissau|Guinea-Bissau
+Guyana|Guyana
+Haiti|Haiti
+HeardIslandandMcdonaldIslands|Heard Island and Mcdonald Islands
+HolySee(VaticanCityState)|Holy See (Vatican City State)
+Honduras|Honduras
+HongKong|Hong Kong
+Hungary|Hungary
+Iceland|Iceland
+India|India
+Indonesia|Indonesia
+IranIslamicRepublicof|Iran, Islamic Republic of
+Iraq|Iraq
+Ireland|Ireland
+IsleofMan|Isle of Man
+Israel|Israel
+Italy|Italy
+Jamaica|Jamaica
+Japan|Japan
+Jersey|Jersey
+Jordan|Jordan
+Kazakhstan|Kazakhstan
+Kenya|Kenya
+Kiribati|Kiribati
+KoreaDemocraticPeople'sRepublicof|Korea, Democratic People's Republic of
+KoreaRepublicof|Korea, Republic of
+Kuwait|Kuwait
+Kyrgyzstan|Kyrgyzstan
+LaoPeople'sDemocraticRepublic|Lao People's Democratic Republic
+Latvia|Latvia
+Lebanon|Lebanon
+Lesotho|Lesotho
+Liberia|Liberia
+Libya|Libya
+Liechtenstein|Liechtenstein
+Lithuania|Lithuania
+Luxembourg|Luxembourg
+Macau|Macau
+Macedonia|Macedonia
+Madagascar|Madagascar
+Malawi|Malawi
+Malaysia|Malaysia
+Maldives|Maldives
+Mali|Mali
+Malta|Malta
+MarshallIslands|Marshall Islands
+Martinique|Martinique
+Mauritania|Mauritania
+Mauritius|Mauritius
+Mayotte|Mayotte
+Mexico|Mexico
+MicronesiaFederatedStatesof|Micronesia, Federated States of
+MoldovaRepublicof|Moldova, Republic of
+Monaco|Monaco
+Mongolia|Mongolia
+Montenegro|Montenegro
+Montserrat|Montserrat
+Morocco|Morocco
+Mozambique|Mozambique
+Myanmar|Myanmar
+Namibia|Namibia
+Nauru|Nauru
+Nepal|Nepal
+Netherlands|Netherlands
+NewCaledonia|New Caledonia
+NewZealand|New Zealand
+Nicaragua|Nicaragua
+Niger|Niger
+Nigeria|Nigeria
+Niue|Niue
+NorfolkIsland|Norfolk Island
+NorthernMarianaIslands|Northern Mariana Islands
+Norway|Norway
+Oman|Oman
+Pakistan|Pakistan
+Palau|Palau
+PalestineState|Palestine, State
+Panama|Panama
+PapuaNewGuinea|Papua New Guinea
+Paraguay|Paraguay
+Peru|Peru
+Philippines|Philippines
+Pitcairn|Pitcairn
+Poland|Poland
+Portugal|Portugal
+PuertoRico|Puerto Rico
+Qatar|Qatar
+Reunion|Reunion
+Romania|Romania
+RussianFederation|Russian Federation
+Rwanda|Rwanda
+SaintHelena|Saint Helena
+SaintKittsandNevis|Saint Kitts and Nevis
+SaintLucia|Saint Lucia
+SaintMartin|Saint Martin
+SaintPierre|Saint Pierre
+SaintVincentandTheGrenadines|Saint Vincent and The Grenadines
+Samoa|Samoa
+SanMarino|San Marino
+SaoTomeandPrincipe|Sao Tome and Principe
+SaudiArabia|Saudi Arabia
+Senegal|Senegal
+Serbia|Serbia
+Seychelles|Seychelles
+SierraLeone|Sierra Leone
+Singapore|Singapore
+SintMaarten|Sint Maarten
+Slovakia|Slovakia
+Slovenia|Slovenia
+SolomonIslands|Solomon Islands
+Somalia|Somalia
+SouthAfrica|South Africa
+SouthGeorgiaandTheSouthSandwichIslands|South Georgia and The South Sandwich Islands
+SouthSudan|South Sudan
+Spain|Spain
+SriLanka|Sri Lanka
+StBarthelemy|St. Barthelemy
+Sudan|Sudan
+Suriname|Suriname
+Svalbard|Svalbard
+Sweden|Sweden
+Switzerland|Switzerland
+SyrianArabRepublic|Syrian Arab Republic
+Taiwan|Taiwan
+Tajikistan|Tajikistan
+TanzaniaUnitedRepublicof|Tanzania, United Republic of
+Thailand|Thailand
+Timor-Leste|Timor-Leste
+Togo|Togo
+Tokelau|Tokelau
+Tonga|Tonga
+TrinidadandTobago|Trinidad and Tobago
+Tunisia|Tunisia
+Turkiye|Turkiye
+Turkmenistan|Turkmenistan
+TurksandCaicosIslands|Turks and Caicos Islands
+Tuvalu|Tuvalu
+Uganda|Uganda
+Ukraine|Ukraine
+UnitedArabEmirates|United Arab Emirates
+UnitedKingdom|United Kingdom
+UnitedStates|United States
+UnitedStatesMinorOutlyingIslands|United States Minor Outlying Islands
+Uruguay|Uruguay
+Uzbekistan|Uzbekistan
+Vanuatu|Vanuatu
+Venezuela|Venezuela
+VirginIslandsBritish|Virgin Islands, British
+VirginIslandsUS|Virgin Islands, U.S.
+WallisandFutuna|Wallis and Futuna
+WesternSahara|Western Sahara
+Yemen|Yemen
+Zambia|Zambia
+Zimbabwe|Zimbabwe

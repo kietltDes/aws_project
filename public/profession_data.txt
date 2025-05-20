@@ -1,0 +1,30 @@
+cio|Chief Information Officer
+cto|Chief Technology Officer
+coo|Chief Operating Officer
+ciso|Chief Information Security Officer
+owner_exec|Owner/Executive Management
+it_mgmt|IT Management
+data_sci|Data Sciences
+sw_dev|Software/Application Development/Engineering
+hw_dev|Hardware Development/Engineering
+fpga|FPGA Engineering
+sys_arch|Solution/System Architecture
+infra_arch|Infrastructure/Datacenter Architecture
+net_eng|Network Architecture/Engineering
+it_sec|IT Information Security
+it_storage|IT Storage
+it_devices|IT User Devices - PCs tablets etc
+it_general|IT Generalist/Other IT
+fac_av|Facilities/Audio Video
+lob_head|Line of Business or Service Head
+finance|Finance/Procurement
+sales|Sales
+marketing|Marketing
+consultant|Consultant
+hobbyist|Hobbyist/Maker
+educator|Educator
+student|Student
+researcher|Scientist/Researcher
+press|Press Analyst
+ops_eng|Operations Engineer
+other|Other
