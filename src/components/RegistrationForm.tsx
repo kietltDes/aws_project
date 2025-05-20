@@ -174,7 +174,7 @@ export const RegistrationForm = () => {
               id="email"
               type="email"
               {...register("email")}
-              placeholder="Email *"
+              placeholder="Email (Domain công ty) *"
               className="h-12 border-gray-300 rounded"
             />
             {errors.email && (
@@ -264,8 +264,7 @@ export const RegistrationForm = () => {
           )}
         </div>
 
-        <div className="relative">
-          {/* <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">(+84)</span> */}
+        {/* <div className="relative">
           <Input
             id="mobilePhone"
             type="text"
@@ -291,7 +290,7 @@ export const RegistrationForm = () => {
               {errors.mobilePhone.message as string}
             </p>
           )}
-        </div>
+        </div> */}
 
 
           {/* Company và Job Title */}
@@ -307,14 +306,7 @@ export const RegistrationForm = () => {
             )}
           </div>
 
-          <div>
-            {/* <Input
-              id="jobTitle"
-              {...register("jobTitle")}
-              placeholder="Chức vụ *"
-              className="h-12 border-gray-300 rounded"
-            /> */}
-
+          {/* <div>
               <select
                   id="jobTitle"
                   {...register("jobTitle", { required: "Vui lòng chọn chức vụ" })}
@@ -339,7 +331,7 @@ export const RegistrationForm = () => {
             {errors.jobTitle && (
               <p className="text-red-500 text-sm mt-1">{errors.jobTitle.message as string}</p>
             )}
-          </div>
+          </div> */}
 
           {/* Profession và Job Level */}
 
@@ -355,7 +347,7 @@ export const RegistrationForm = () => {
             )}
           </div> */}
 
-          <div>
+          {/* <div>
             <select
               id="profession"
               {...register("profession", { required: "Vui lòng chọn quốc gia hoặc vùng" })}
@@ -373,7 +365,7 @@ export const RegistrationForm = () => {
               {errors.profession.message as string}
             </p>
           )}
-          </div>
+          </div> */}
 
 
           <div>
@@ -453,7 +445,7 @@ export const RegistrationForm = () => {
             disabled={isSubmitting}
             className="w-32 h-12 bg-[#0169B9] hover:bg-[#003A7F] text-white font-medium  rounded-none"
           >
-            {isSubmitting ? "Đang gửi..." : "Hoàn thành"}
+            {isSubmitting ? "Đang gửi..." : "Xác nhận"}
           </Button>
 
         </div>

@@ -74,12 +74,12 @@ const agenda = [
   {
     from: "11:15",
     to: "11:45",
-    speaker: "GAPV Solutions Showcase",
+    speaker: "GAPV Solutions: Accelerate Migration & Modernization with Amazon Q ",
   },
   {
     from: "11:45",
     to: "12:15",
-    speaker: "AOvercoming Challenges for SMBs & Digital Natives: The Velocity - Security - Compliance Triangle",
+    speaker: "Overcoming Challenges for SMBs & Digital Natives: The Velocity - Security - Compliance Triangle",
   },
   {
     from: "12:15",
@@ -121,7 +121,7 @@ const speakers = [
   },
   {
     name: "Mr. Tung Cao",
-    title: "Asrani, Head - Strategic Product & Revenue Growth, Digital Native Businesses and ISVs, ASEAN, AWS Solutions Architect, AWS",
+    title: "Solutions Architect, AWS",
     image: "/diengia3.png" 
   },
   {
@@ -266,9 +266,10 @@ export const Homepage = (): JSX.Element => {
                   <div className="w-full bg-[#D0E8FF]-disable ">
                     <div className="mx-auto">
                       <p className="text-lg lg:text-xl text-justify leading-normal sm:leading-relaxed md:leading-loose mb-6 tracking-wide">
-                      Chào mừng Quý vị đến với trang đăng ký sự kiện "AWS ISV Community Day". Đây là sự kiện độc quyền, được tổ chức nhằm kết nối 
-                      các nhà cung cấp phần mềm độc lập (ISV), các công ty phần mềm trong nước và các chuyên gia công nghệ từ AWS trong một ngày 
-                      gặp gỡ, chia sẻ và học hói.
+                      Chào mừng Quý vị đến với trang đăng ký sự kiện "AWS ISV Community Day". Đây là sự kiện độc quyền, 
+                      được tổ chức nhằm kết nối các nhà cung cấp phần mềm độc lập (ISV), các công ty phần mềm trong 
+                      nước và các chuyên gia công nghệ từ AWS trong một ngày gặp gỡ, chia sẻ và học hỏi.
+
                       </p>
 {/* 
                       <p className="font-medium text-lg lg:text-2xl mb-4">Tại sự kiện này, Quý vị sẽ có cơ hội:</p>
@@ -307,13 +308,14 @@ Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh </p>
                     </div>
                     
                       <p className="text-lg lg:text-xl text-justify leading-normal sm:leading-relaxed md:leading-loose mb-6 tracking-wide">
-                      Tham gia cùng chúng tôi tại AWS ISV Community Day để mở khóa tiềm năng kinh doanh, tăng tốc tăng trưởng doanh thu và 
-                      thúc đẩy đối mới. Sự kiện trực tiếp độc quyền lần này sẽ giới thiệu cách mà các nhà cung cấp giải pháp/doanh nghiệp có 
-                      thể tận dụng các công nghệ của AWS và Generative AI để hợp lý hóa hoạt động và nâng cao quy trình phát triển phần mềm.
+                      Hãy tham gia sự kiện độc quyền  AWS ISV Community Day, nơi bạn sẽ được khám phá cách khai thác công nghệ tiên tiến 
+                      của AWS và Generative AI nhằm tối ưu hóa hoạt động kinh doanh, đẩy mạnh phát triển phần mềm và thúc đẩy tăng trưởng doanh thu.
                       </p>
                       <p className="text-lg lg:text-xl text-justify leading-normal sm:leading-relaxed md:leading-loose mb-6 tracking-wide">
-                      Đồng thời, đây là cơ hội để học hỏi từ các chuyên gia trong ngành, đối tác AWS và khách hàng, về các chiến lược SaaS thành công, 
-                      khám phá cơ hội hợp tác, và khám phá những lộ trình chuyển đổi doanh nghiệp hiệu quả đã được kiểm chứng cùng AWS...
+                      Tại đây, các nhà cung cấp giải pháp công nghệ sẽ có cơ hội tìm hiểu cách áp dụng các công nghệ đột phá để đổi mới quy trình, 
+                      nâng cao hiệu quả vận hành. Đồng thời, sự kiện cũng là dịp để kết nối với các chuyên gia trong ngành, đối tác AWS và khách 
+                      hàng – những người sẽ chia sẻ chiến lược SaaS thành công, cơ hội hợp tác tiềm năng và những hành trình chuyển đổi số thực tiễn, 
+                      đã mang lại kết quả rõ rệt cùng AWS.
                       </p>
 
                       <div className="w-full my-8">
@@ -323,8 +325,7 @@ Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh </p>
                             className="w-auto h-auto mx-auto object-contain"
                             loading="lazy"
                           />
-                        </div>        
-
+                      </div>       
                   </div>
 
                 </CardContent>
