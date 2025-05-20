@@ -36,7 +36,7 @@ export const RegistrationForm = () => {
 
   const onSubmit = async (data: any) => {
     try {
-      const scriptUrl = "https://script.google.com/macros/s/AKfycbx2l8Pe-abUInPZOF2PCk-56fKiTWgh-ou-LeippocCl8ps1AA1qWUUc13guyatg1pL/exec";
+      const scriptUrl = "https://script.google.com/macros/s/AKfycbxM5WSqOCGGxZsm1FtPSYCwSQAHah_K_HskMpQOq3Gvp6v8kzjmQxyvXy7RPuyS8Fu6fw/exec";
 
       const response = await fetch(scriptUrl, {
         method: "POST",
