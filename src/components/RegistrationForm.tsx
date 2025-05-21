@@ -358,11 +358,11 @@ export const RegistrationForm = () => {
 
         </div> */}
 
-        <div className="p-4 flex flex-col items-center">
+        <div className=" flex flex-col items-end justify-end">
           <Button 
             type="submit" 
             disabled={isSubmitting} 
-            className="w-48 h-14 bg-[#0169B9] hover:bg-[#003A7F] text-white text-[18px] font-base rounded-none flex items-center justify-center gap-2"
+            className="w-full h-14 bg-[#0169B9] hover:bg-[#003A7F] text-white text-[18px] font-base rounded-none flex items-center justify-center gap-2"
           >
             {isSubmitting ? (
               <>
