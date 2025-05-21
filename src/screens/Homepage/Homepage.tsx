@@ -188,7 +188,7 @@ export const Homepage = (): JSX.Element => {
 
 
         {/* Navigation and Content Section */}
-        <section className="rounded-none border-none">
+        <section className="w-full rounded-none p-0 m-0">
           {/* Navigation Tabs */}
           <Tabs defaultValue="overview" className="w-full rounded-none p-0 m-0">
             <TabsList className="
@@ -209,7 +209,7 @@ export const Homepage = (): JSX.Element => {
               data-[state=active]:bg-[#392165] 
               text-gray-800 
               data-[state=active]:text-white 
-              text-base md:text-[24px] 
+              text-[13px] md:text-[24px] 
               font-medium 
               transition-all  
               duration-300
@@ -227,7 +227,7 @@ export const Homepage = (): JSX.Element => {
               data-[state=active]:bg-[#392165] 
               text-gray-800 
               data-[state=active]:text-white 
-              text-base md:text-[24px] 
+              text-[13px] md:text-[24px]
               font-medium 
               transition-all 
               duration-300
@@ -245,7 +245,7 @@ export const Homepage = (): JSX.Element => {
               data-[state=active]:bg-[#392165] 
               text-gray-800 
               data-[state=active]:text-white 
-              text-base md:text-[24px] 
+              text-[13px] md:text-[24px] 
               font-medium 
               transition-all 
               duration-300
