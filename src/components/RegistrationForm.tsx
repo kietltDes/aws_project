@@ -172,7 +172,7 @@ export const RegistrationForm = () => {
               id="email"
               type="email"
               {...register("email")}
-              placeholder="Email(Domain công ty) *"
+              placeholder="Email (Domain công ty) *"
               className="h-12 border-gray-300 rounded"
             />
             {errors.email && (
