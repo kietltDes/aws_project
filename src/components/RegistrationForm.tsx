@@ -5,6 +5,7 @@ import * as z from "zod";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
+import { CheckCircle, Loader2 } from "lucide-react";
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from "react";
 
@@ -14,11 +15,8 @@ const formSchema = z.object({
   country: z.string().min(1, "Quốc gia/Vùng là bắt buộc"),
   email: z.string().email("Email không hợp lệ"),
   mobilePhone: z.string().min(1, "Số điện thoại di động là bắt buộc"),
-  businessPhone: z.string().optional(),
   company: z.string().min(1, "Tên công ty là bắt buộc"),
-  jobTitle: z.string().min(1, "Chức danh là bắt buộc"),
   profession: z.string().min(1, "Nghề nghiệp là bắt buộc"),
-  jobLevel: z.string().min(1, "Cấp bậc là bắt buộc"),
   industry: z.string().min(1, "Ngành nghề là bắt buộc"),
 });
 
@@ -36,7 +34,7 @@ export const RegistrationForm = () => {
 
   const onSubmit = async (data: any) => {
     try {
-      const scriptUrl = "https://script.google.com/macros/s/AKfycbxM5WSqOCGGxZsm1FtPSYCwSQAHah_K_HskMpQOq3Gvp6v8kzjmQxyvXy7RPuyS8Fu6fw/exec";
+      const scriptUrl = "https://script.google.com/macros/s/AKfycbxy1AntZnLxH060kkxH6t4sSuU3b_FNaAd140s_R4aUD8Y64VUoaFIliItuMlUrqQAV/exec";
 
       const response = await fetch(scriptUrl, {
         method: "POST",
@@ -122,7 +120,7 @@ export const RegistrationForm = () => {
       <p className="text-gray-800 mb-4 text-sm italic">Bắt buộc (*)</p>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Họ và tên */}
           <div>
@@ -174,7 +172,7 @@ export const RegistrationForm = () => {
               id="email"
               type="email"
               {...register("email")}
-              placeholder="Email (Domain công ty) *"
+              placeholder="Email(Domain công ty) *"
               className="h-12 border-gray-300 rounded"
             />
             {errors.email && (
@@ -234,7 +232,7 @@ export const RegistrationForm = () => {
             />
           </div> */}
 
-
+    
         <div className="relative">
           {/* <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">(+84)</span> */}
           <Input
@@ -264,34 +262,6 @@ export const RegistrationForm = () => {
           )}
         </div>
 
-        {/* <div className="relative">
-          <Input
-            id="mobilePhone"
-            type="text"
-            inputMode="numeric"
-            pattern="[0-9]*"
-            placeholder="Số điện thoại doanh nghiệp *"
-            className="border-gray-300 rounded "
-            {...register("mobilePhone")}
-            onKeyDown={(e) => {
-              if (!/[0-9]/.test(e.key) && e.key !== "Backspace" && e.key !== "Tab") {
-                e.preventDefault();
-              }
-            }}
-            onPaste={(e) => {
-              const pasted = e.clipboardData.getData("Text");
-              if (!/^\d+$/.test(pasted)) {
-                e.preventDefault();
-              }
-            }}
-          />
-          {errors.mobilePhone && (
-            <p className="text-red-500 text-sm mt-1">
-              {errors.mobilePhone.message as string}
-            </p>
-          )}
-        </div> */}
-
 
           {/* Company và Job Title */}
           <div>
@@ -306,36 +276,10 @@ export const RegistrationForm = () => {
             )}
           </div>
 
-          {/* <div>
-              <select
-                  id="jobTitle"
-                  {...register("jobTitle", { required: "Vui lòng chọn chức vụ" })}
-                  className={`
-                    w-full h-12 px-3 pr-10 
-                    border border-gray-300 rounded 
-                    text-gray-700 bg-white 
-                    appearance-none 
-                    focus:outline-none focus:ring-2 focus:ring-blue-500
-                  `}
-                >
-                  <option value="">Chức vụ *</option>
-                  <option value="Board Level">Board Level</option>
-                  <option value="Owner/Partner">Owner/Partner</option>
-                  <option value="C-Level Executive">C-Level Executive</option>
-                  <option value="VP/SVP/Director">VP/SVP/Director</option>
-                  <option value="Manager">Manager</option>
-                  <option value="Professional/Staff/Associate">Professional/Staff/Associate</option>
-                  <option value="Other">Other</option>
-                </select>
-
-            {errors.jobTitle && (
-              <p className="text-red-500 text-sm mt-1">{errors.jobTitle.message as string}</p>
-            )}
-          </div> */}
 
           {/* Profession và Job Level */}
 
-          {/* <div>
+          <div>
             <Input
               id="profession"
               {...register("profession")}
@@ -345,7 +289,7 @@ export const RegistrationForm = () => {
             {errors.firstName && (
               <p className="text-red-500 text-sm mt-1">{errors.firstName.message as string}</p>
             )}
-          </div> */}
+          </div>
 
           {/* <div>
             <select
@@ -368,20 +312,8 @@ export const RegistrationForm = () => {
           </div> */}
 
 
-          <div>
-            <Input
-              id="jobLevel"
-              {...register("jobLevel")}
-              placeholder="Vị trí *"
-              className="h-12 border-gray-300 rounded"
-            />
-            {errors.jobLevel && (
-              <p className="text-red-500 text-sm mt-1">{errors.jobLevel.message as string}</p>
-            )}
-          </div>
-
           {/* Industry */}
-{/* 
+
           <div>
             <Input
               id="industry"
@@ -392,9 +324,9 @@ export const RegistrationForm = () => {
             {errors.jobLevel && (
               <p className="text-red-500 text-sm mt-1">{errors.jobLevel.message as string}</p>
             )}
-          </div> */}
+          </div>
 
-          <div>
+          {/* <div>
             <select
               id="industry"
               {...register("industry", { required: "Vui lòng chọn lĩnh vực công tác" })}
@@ -410,46 +342,44 @@ export const RegistrationForm = () => {
             {errors.industry && (
               <p className="text-red-500 text-sm mt-1">{errors.industry.message as string}</p>
             )}
-          </div>
+          </div> */}
 
         </div>
-
-       
-         
-
         {/* Checkbox và Submit */}
-        <div className="space-y-4">
-          <div className="flex items-start gap-2">
-            <input
-              type="checkbox"
-              required
-              className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-            />
-
-          <p className="text-lg text-gray-600 leading-relaxed">
-            Bằng cách hoàn thành biều mẫu này, bạn đã xác nhận rắng bạn 18 tuổi trở lên.
-            {/* <a
-              href="https://www.intel.com/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Privacy Notice
-            </a>. */}
-          </p>
-
-          </div>
+        {/* <div className="space-y-4">
 
           <Button
             type="submit"
             disabled={isSubmitting}
             className="w-32 h-12 bg-[#0169B9] hover:bg-[#003A7F] text-white font-medium  rounded-none"
           >
-            {isSubmitting ? "Đang gửi..." : "Xác nhận"}
+            {isSubmitting ? "Đang gửi..." : "Hoàn thành"}
           </Button>
 
+        </div> */}
+
+        <div className="p-4 flex flex-col items-center">
+          <Button 
+            type="submit" 
+            disabled={isSubmitting} 
+            className="w-48 h-14 bg-[#0169B9] hover:bg-[#003A7F] text-white text-[18px] font-base rounded-none flex items-center justify-center gap-2"
+          >
+            {isSubmitting ? (
+              <>
+                <span className="animate-spin">
+                  <Loader2 size={24} />
+                </span>
+                <span>Đang gửi...</span>
+              </>
+            ) : (
+              <>
+                <CheckCircle size={24} />
+                <span>Xác nhận</span>
+              </>
+            )}
+          </Button>
         </div>
-        </div> 
+
       </form>
     </div>
   );
