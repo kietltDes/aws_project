@@ -38,18 +38,15 @@ export const ThankYou = () => {
           </h2>
           
           <div className="space-y-4 mb-8 max-w-2xl mx-auto">
-            <p className=" text-lg  leading-relaxed text-gray-800 ">
-            Sự kiện sẽ được tổ chức trực tiếp và vì không gian tại địa điểm có hạn nên chỉ những Quý vị đã nhận được "Email xác nhận" sau khi đăng ký trước mới có thể tham dự.
+            <p className=" text-2xl  leading-relaxed text-gray-900 ">
+            Quý vị đừng quên mang theo laptop cá nhân để thực hành lab trực tiếp tại sự kiện !
 
-            </p>
-            <p className="px-4 text-lg text-gray-800 tracking-normal">
-            Vui lòng hiểu rằng việc tham dự sẽ bị hạn chế đối với những Quý vị không nhận được "Email xác nhận" ít nhất 3 ngày trước sự kiện.
             </p>
           </div>
             <p className="mb-6 text-lg text-[#0368B7]">
               Để biết thêm thông tin, vui lòng liên hệ qua email: 
-              <a href="mailto:event@trangia.vn" className="underline hover:text-blue-700 ml-1">
-                event@trangia.vn
+              <a href="mailto:kathy@g-asiapac.com.vn" className="underline hover:text-blue-700 ml-1">
+                kathy@g-asiapac.com.vn
               </a>
             </p>
             <button
