@@ -146,11 +146,11 @@ const speakers = [
   },
   {
     name: "Ms. Thuy Le ",
-    title: "Team Leader of Conglomerate|ISV|Digital, AWS",
+    title: "Team Leader of Conglomerate | ISV | Digital, AWS",
     image: "/diengia8.png"
   },
   {
-    name: "Mr. Son Nguyen ",
+    name: "Mr. Son Dao ",
     title: "Principal Software Engineer of Katalon",
     image: "/diengia9.png"
   },
