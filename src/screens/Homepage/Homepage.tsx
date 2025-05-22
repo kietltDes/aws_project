@@ -151,12 +151,17 @@ const speakers = [
   },
   {
     name: "Mr. Son Nguyen ",
-    title: "Al Senior engineer, Katalon",
+    title: "Principal Software Engineer of Katalon",
     image: "/diengia9.png"
   },
     {
     name: "Mr. Tuan Nguyen",
     title: "CEO, Actiup",
+    image: "/diengia10.png"
+  },
+  {
+    name: "Mr. Bernard Ng",
+    title: "Senior Customer Success Engineer, GitLab",
     image: "/diengia10.png"
   },
 
