@@ -162,7 +162,7 @@ const speakers = [
   {
     name: "Mr. Bernard Ng",
     title: "Senior Customer Success Engineer, GitLab",
-    image: "/diengia10.png"
+    image: "/diengia11.png"
   },
 
 ];
