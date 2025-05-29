@@ -156,13 +156,18 @@ const speakers = [
   },
     {
     name: "Mr. Tuan Nguyen",
-    title: "CEO, Actiup",
+    title: "CEO, ActiUp",
     image: "/diengia10.png"
   },
   {
     name: "Mr. Bernard Ng",
     title: "Senior Customer Success Engineer, GitLab",
     image: "/diengia11.png"
+  },  
+  {
+    name: "Trang Do",
+    title: "Co-founder & Chief of Business Development, NamiTech",
+    image: "/diengia12.png"
   },
 
 ];
